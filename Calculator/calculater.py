@@ -1,5 +1,3 @@
-# Simple Calculator in Python with continuous operations
-
 def add(x, y):
     return x + y
 
@@ -20,12 +18,11 @@ while True:
     print("4. Divide")
     print("5. Exit")
 
-    # Prompt user to input choice of operation
+
     choice = input("Enter choice (1/2/3/4/5): ")
 
-    # Check if choice is valid
     if choice in ['1', '2', '3', '4']:
-        # Prompt user to input two numbers
+        
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
